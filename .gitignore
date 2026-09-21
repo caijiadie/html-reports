@@ -1,0 +1,15 @@
+# 凭证与临时文件——绝不入库
+.gh_token_tmp
+.env
+*.token
+*_token*
+# 原始数据表（工作区红线：不上传）
+*.xlsx
+*.xls
+*.docx
+*.wav
+*.mp4
+*.pdf
+
+# token 临时文件
+.gh_token_tmp
